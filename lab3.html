@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="calculator">
+
+    <h2>iOS Calculator</h2>
+
+    <div id="screen">0</div>
+
+    <div class="row">
+        <button onclick="clearScreen()">AC</button>
+        <button onclick="show('00')">00</button>
+        <button onclick="show('%')">%</button>
+        <button onclick="show('/')">÷</button>
+    </div>
+
+    <div class="row">
+        <button onclick="show('7')">7</button>
+        <button onclick="show('8')">8</button>
+        <button onclick="show('9')">9</button>
+        <button onclick="show('*')">×</button>
+    </div>
+
+    <div class="row">
+        <button onclick="show('4')">4</button>
+        <button onclick="show('5')">5</button>
+        <button onclick="show('6')">6</button>
+        <button onclick="show('-')">-</button>
+    </div>
+
+    <div class="row">
+        <button onclick="show('1')">1</button>
+        <button onclick="show('2')">2</button>
+        <button onclick="show('3')">3</button>
+        <button onclick="show('+')">+</button>
+    </div>
+
+    <div class="row">
+        <button onclick="show('0')">0</button>
+        <button onclick="show('.')">.</button>
+        <button onclick="calculate()">=</button>
+        <button onclick="clearScreen()">C</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
